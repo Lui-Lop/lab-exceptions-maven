@@ -11,8 +11,8 @@ import java.io.PrintWriter;
  * PITA for I/O.)
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
- * @author Your Name Here
+ * @author Luis Lopez
+ * @author Tiffany Yan
  */
 public class ReadIntExperiment {
   /**

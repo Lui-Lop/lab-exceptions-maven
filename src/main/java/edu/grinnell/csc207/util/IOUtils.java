@@ -30,7 +30,11 @@ public class IOUtils {
       pw.print(prompt);
       pw.flush();
     } // if there is a prompt
-    String response = br.readLine();
-    return Integer.parseInt(response);
+    try {
+      String response = br.readLine();
+      return Integer.parseInt(response);
+    } catch (Exception e) {
+      return 0;
+    }
   } // readInt
 } // class IOUtils
